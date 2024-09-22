@@ -1,0 +1,65 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+body {
+    min-height: 100vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 24px;
+}
+
+.item {
+    background-color: crimson;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-button {
+    padding: 12px 6px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 12px;
+    border: 1px solid grey;
+    cursor: pointer;
+    font-weight: 700;
+}
